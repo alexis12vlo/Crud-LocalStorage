@@ -8,7 +8,7 @@
 	text-align: center;
 }
 .Nav_Title h3{
-	font-size: 70px;
+	font-size: 50px;
 	color: #35783C;
 }
 .Nav_Links {
@@ -16,7 +16,7 @@
 }
 .Nav_Links a{
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 35px;
 	color: #BEB5B5;
 }
 .Nav_Links a:hover{
@@ -28,7 +28,7 @@ a{
 	color: #BEB5B5;
 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .Nav{
 	display: flex;
 	flex-direction: row;
