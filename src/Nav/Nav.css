@@ -1,0 +1,65 @@
+.Nav{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 60vh;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+.Nav_Title h3{
+	font-size: 70px;
+	color: #35783C;
+}
+.Nav_Links {
+	text-align: left;
+}
+.Nav_Links a{
+	text-decoration: none;
+	font-size: 40px;
+	color: #BEB5B5;
+}
+.Nav_Links a:hover{
+	color: #69A099;
+
+	}
+a{
+	font-size: 30px;
+	color: #BEB5B5;
+
+}
+@media screen and (max-width: 1000px) {
+  .Nav{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 15vh;
+	align-items:center;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+}
+.Nav_Links {
+	display: flex;
+	width: 70%;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+.Nav_Title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+.Nav_Title h3{
+	font-size: 40px;
+	color: #35783C;
+}
+.Nav_Links a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #BEB5B5;
+}
+} 
